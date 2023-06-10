@@ -1,0 +1,141 @@
+/* Opmaak van de body en alles er in. */
+@media (min-width: 900px) {
+  .section {
+    display: flex;
+    align-items: center;
+  }
+  .section p {
+    margin-left: 20px;
+  }
+}
+body {
+  background-color: #f1f1f1; /*rgb(240,233,218) rgb(213,225,215)*/
+  color: rgb(37, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  text-align: justify;
+}
+.container {
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+.container h1 {
+  display: block;
+  margin-top: 100px;
+}
+  img {
+    width: 300px;
+    justify-content: flex-end;
+    border: none;
+    border-radius: 8px;
+  }
+  img.transparant {
+  border: 2px rgb(11, 104, 137) solid;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3{
+  margin: 0;
+  padding: 20px 20px 5px 20px;
+}
+.section p {
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+hr {
+  background-color: rgb(11, 104, 137);
+  height: 3px;
+  border-radius: 8px;
+  border: none;
+}
+a {
+  /* text-decoration: none; */
+  color: rgb(37, 37, 37);
+}
+a:hover {
+  color: rgb(10, 74, 170);
+}
+.commentLeft {
+  background-color: rgb(213, 225, 215);
+  border-left: 5px rgb(10, 74, 170) solid;
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.commentRight {
+  background-color: rgb(213, 225, 215);
+  border-left: 5px rgb(10, 74, 170) solid;
+  border-radius: 8px;
+  padding: 10px;
+  padding-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.commentLeft p,
+.commentRight p {
+  margin-left: 0;
+  margin-top: 0;
+}
+.disclaimer {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+.intro {
+  text-align: center;
+}
+
+/* Navigation bar */
+#navbar {
+  position: fixed;
+  width: 100%;
+  clear: both;
+  height: 62px;
+  background: rgb(10, 74, 170);
+  background-image: linear-gradient(rgb(34, 162, 204), rgb(10, 74, 170));
+}
+#logo {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  font-variant: small-caps;
+  color: rgb(37, 37, 37);
+  font-size: 18px;
+  text-decoration: none;
+  padding-left: 35px;
+  float: left;
+}
+#navlist {
+  float: right;
+}
+#navlist li {
+  display: inline;
+  /* list-style-type: square; */
+  padding-right: 20px;
+}
+#navbar a {
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+#navbar a:hover {
+  color: rgb(10, 74, 170);
+}
+
+/* Footer */
+#main-footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
